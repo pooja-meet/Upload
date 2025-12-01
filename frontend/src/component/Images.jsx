@@ -6,7 +6,7 @@ function Images() {
   const [images, setImages] = useState([])
 
   const loadImages = async () => {
-    const res = await fetch(`http://localhost:3000/view`);
+    const res = await fetch(`https://upload-567g.onrender.com/view`);
     const data = await res.json();
     setImages(data);
   };
@@ -34,4 +34,5 @@ function Images() {
     </>
   )
 }
+
 export default Images
