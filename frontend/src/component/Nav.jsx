@@ -29,4 +29,5 @@ export default function Nav() {
             <Outlet />
         </>
     )
+
 }
